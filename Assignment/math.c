@@ -26,6 +26,10 @@ int main(void)
       case '^' : return (num1^num2); //Bitwise XOR
       	break;
       case '~' : return (~num1);     //Inverse
+	break;
+      default:
+	printf("Invalid Entry");
+	break;
     }	
 	return 0;
 }

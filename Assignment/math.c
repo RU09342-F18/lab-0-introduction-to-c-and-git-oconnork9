@@ -15,9 +15,9 @@ int main(void)
       	break;
       case '%' : return (num1%num2); //Remainder
      	break;
-      case '<' : return (num1<num2); //Shift Left
+      case '<' : return (num1<<num2); //Shift Left
       	break;
-      case '>' : return (num1>num2); //Shift Right
+      case '>' : return (num1>>num2); //Shift Right
       	break;
       case '&' : return (num1&num2); //Bitwise AND
       	break;

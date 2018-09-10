@@ -26,6 +26,6 @@ int main(void)
       case '^' : return (num1^num2); //Bitwise XOR
       	break;
       case '~' : return (~num1);     //Inverse
-    	
+    }	
 	return 0;
 }
